@@ -19,6 +19,7 @@ div {
 
 .div1 {
     background-color: blueviolet;
+    grid-area: span 2 / span 2;
 }
 
 .div2 {
