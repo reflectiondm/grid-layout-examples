@@ -12,7 +12,7 @@ div {
 
     display: grid;
 
-    grid-template-columns: auto auto auto;
+    grid-template-columns: min-content max-content fit-content(400px);
     grid-gap: 25px;
 }
 
@@ -22,9 +22,10 @@ div {
 
 .div2 {
     background-color: coral;
+    /* width: max-content; */
 }
 
 .div3 {
     background-color: greenyellow;
-    width: min-content;
+    /* width: min-content; */
 }
