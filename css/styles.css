@@ -26,4 +26,5 @@ div {
 
 .div3 {
     background-color: greenyellow;
+    width: min-content;
 }
