@@ -12,21 +12,18 @@ div {
 
     display: grid;
 
-    grid-template-columns: 100px 1fr 2fr;
+    grid-template-columns: auto auto auto;
     grid-gap: 25px;
 }
 
 .div1 {
-    height: 50px;
     background-color: blueviolet;
 }
 
 .div2 {
-    height: 50px;
     background-color: coral;
 }
 
 .div3 {
-    height: 50px;
     background-color: greenyellow;
 }
