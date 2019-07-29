@@ -1,0 +1,29 @@
+* {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    padding: 10px;
+}
+
+.parent {
+    background-color: lightskyblue;
+}
+
+.div1 {
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.div2 {
+    height: 50px;
+    background-color: coral;
+    position: absolute;
+    top: 50px;
+}
+
+.div3 {
+    height: 50px;
+    background-color: greenyellow;
+}
